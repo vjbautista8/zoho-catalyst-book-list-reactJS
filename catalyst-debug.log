@@ -1,0 +1,1733 @@
+[debug] [2023-02-12T14:16:54.292Z] : 
+[debug] [2023-02-12T14:16:54.293Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:16:54.293Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-12T14:16:54.294Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T14:16:54.294Z] : Platform:     win32
+[debug] [2023-02-12T14:16:54.294Z] : Node Version: v18.12.1
+[debug] [2023-02-12T14:16:54.295Z] : Time:         Sun Feb 12 2023 22:16:54 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-12T14:16:54.296Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:16:54.296Z] : 
+[debug] [2023-02-12T14:16:54.970Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T14:16:54.970Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T14:16:54.981Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181 
+
+[debug] [2023-02-12T14:16:55.635Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:16:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=03d4ebd3-b81e-4b45-bfbf-39025c256db2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=03d4ebd3-b81e-4b45-bfbf-39025c256db2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:16:55.646Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/environment 
+
+[debug] [2023-02-12T14:16:56.193Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:16:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=845e5f26-64f1-4a52-84e5-f179bc362efc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=845e5f26-64f1-4a52-84e5-f179bc362efc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:16:56.340Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T14:16:56.890Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:16:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=6b36bba4-7113-4a3b-a3dd-796f30199891;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6b36bba4-7113-4a3b-a3dd-796f30199891;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:16:56.892Z] : unknown eol undefined hence skipping check
+[info] [2023-02-12T14:16:56.933Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:16:56.934Z] : 
+[info] [2023-02-12T14:16:59.387Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-12T14:16:59.389Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-12T14:17:05.215Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:17:05.215Z] : [react-plugin]: 
+[info] [2023-02-12T14:17:05.215Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:17:05.215Z] : [react-plugin]: 
+[info] [2023-02-12T14:17:05.216Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:17:05.216Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:17:05.216Z] : [react-plugin]: 
+[info] [2023-02-12T14:17:05.216Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:17:05.217Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:17:05.217Z] : [react-plugin]: 
+[debug] [2023-02-12T14:17:13.007Z] : proxy closed
+[info] [2023-02-12T14:18:02.860Z] : Shutting down server
+[info] [2023-02-12T14:18:02.876Z] : 
+[info] [2023-02-12T14:18:02.876Z] : √ Shutdown complete
+[debug] [2023-02-12T14:18:02.877Z] : NO ERRORS REGISTERED
+[debug] [2023-02-12T14:18:02.878Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-12T14:18:02.878Z] : TOTAL DURATION OF COMMAND EXEC : 67920
+[debug] [2023-02-12T14:18:02.894Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-12T14:18:04.121Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:18:05 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=4fd403de-89db-4452-86a9-01894bc72f65;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4fd403de-89db-4452-86a9-01894bc72f65;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=808999322FAF773934B32580C822C754; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-12T14:18:04.123Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-12T14:18:04.125Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-12T14:22:04.994Z] : 
+[debug] [2023-02-12T14:22:04.995Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:22:04.995Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-12T14:22:04.995Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T14:22:04.996Z] : Platform:     win32
+[debug] [2023-02-12T14:22:04.996Z] : Node Version: v18.12.1
+[debug] [2023-02-12T14:22:04.997Z] : Time:         Sun Feb 12 2023 22:22:04 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-12T14:22:04.997Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:22:04.997Z] : 
+[debug] [2023-02-12T14:22:05.628Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T14:22:05.628Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T14:22:05.640Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181 
+
+[debug] [2023-02-12T14:22:06.264Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:22:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=42f029d3-2381-4dad-afdf-4e6631dc0162;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=42f029d3-2381-4dad-afdf-4e6631dc0162;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:22:06.277Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/environment 
+
+[debug] [2023-02-12T14:22:06.832Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:22:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=ce784d78-a267-43c7-b2ac-7b482c13aed3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ce784d78-a267-43c7-b2ac-7b482c13aed3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:22:06.994Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T14:22:07.541Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:22:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=accffa60-9daa-4362-a6e8-810869094a78;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=accffa60-9daa-4362-a6e8-810869094a78;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:22:07.546Z] : unknown eol undefined hence skipping check
+[info] [2023-02-12T14:22:07.608Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:22:07.609Z] : 
+[info] [2023-02-12T14:22:09.903Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-12T14:22:09.905Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-12T14:22:12.529Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:22:12.529Z] : [react-plugin]: Attempted import error: './App' does not contain a default export (imported as 'App').
+[info] [2023-02-12T14:22:30.713Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:22:30.985Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:22:30.985Z] : [react-plugin]: Attempted import error: './App' does not contain a default export (imported as 'App').
+[info] [2023-02-12T14:23:27.944Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:23:28.126Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:23:28.126Z] : [react-plugin]: 
+[info] [2023-02-12T14:23:28.126Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:23:28.126Z] : [react-plugin]: 
+[info] [2023-02-12T14:23:28.127Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:23:28.127Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:23:28.127Z] : [react-plugin]: 
+[info] [2023-02-12T14:23:28.127Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:23:28.127Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:23:28.128Z] : [react-plugin]: 
+[info] [2023-02-12T14:24:04.303Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:24:05.059Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:24:05.059Z] : [react-plugin]: 
+[info] [2023-02-12T14:24:05.059Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:24:05.060Z] : [react-plugin]: 
+[info] [2023-02-12T14:24:05.060Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:24:05.060Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:24:05.060Z] : [react-plugin]: 
+[info] [2023-02-12T14:24:05.061Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:24:05.061Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:24:05.061Z] : [react-plugin]: 
+[info] [2023-02-12T14:24:24.213Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:24:24.479Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:24:24.480Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 4:8:  'ReactDOM' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:24:24.480Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:24:24.480Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:25:19.990Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:25:20.144Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]: 
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]: 
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:25:20.145Z] : [react-plugin]: 
+[info] [2023-02-12T14:25:20.146Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:25:20.146Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:25:20.146Z] : [react-plugin]: 
+[info] [2023-02-12T14:25:40.402Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:25:40.589Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:25:40.589Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:10:  'books' is defined but never used  no-unused-vars
+  Line 4:8:   'Book' is defined but never used   no-unused-vars
+[info] [2023-02-12T14:25:40.589Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:25:40.590Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:26:04.339Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:26:04.509Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:26:04.510Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:10:  'books' is defined but never used  no-unused-vars
+  Line 4:8:   'Book' is defined but never used   no-unused-vars
+[info] [2023-02-12T14:26:04.510Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:26:04.510Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:26:22.288Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:26:22.562Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:26:22.562Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 6:10:  'BookList' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:26:22.562Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:26:22.563Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:26:37.301Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:26:37.484Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:26:37.484Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:26:37.484Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:26:37.485Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:27:48.394Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:27:48.581Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:27:48.581Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:27:48.581Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:27:48.582Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:28:07.357Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:28:07.530Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:28:07.531Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:28:07.531Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:28:07.531Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:28:29.413Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:28:29.571Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:28:29.571Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 10:54:  'index' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:28:50.245Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:28:50.404Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:28:50.404Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:28:50.404Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:28:50.404Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:29:03.644Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:03.868Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:29:03.869Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:29:03.869Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:29:03.869Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:29:19.103Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:19.290Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:29:19.291Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 10:54:  'index' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:29:23.317Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:23.460Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:29:23.460Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:29:23.460Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:29:23.461Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:29:36.926Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:37.076Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:29:37.077Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:29:37.077Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:29:37.077Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:29:47.207Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:47.449Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:29:47.449Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:29:47.449Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:29:47.449Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:29:56.692Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:29:56.962Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:29:56.962Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:29:56.962Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:29:56.962Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:30:42.365Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:30:42.600Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:30:42.600Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:30:42.600Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:30:42.601Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:31:04.046Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:31:04.208Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:31:04.208Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 12:56:  'index' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:31:17.313Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:31:17.478Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:31:17.478Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:31:17.479Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:31:17.479Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:31:34.408Z] : Shutting down server
+[info] [2023-02-12T14:31:34.426Z] : 
+[info] [2023-02-12T14:31:34.431Z] : √ Shutdown complete
+[debug] [2023-02-12T14:31:34.432Z] : NO ERRORS REGISTERED
+[debug] [2023-02-12T14:31:34.434Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-12T14:31:34.434Z] : TOTAL DURATION OF COMMAND EXEC : 568817
+[debug] [2023-02-12T14:31:34.458Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-12T14:31:35.779Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:36 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=182fe2cd-cc04-4e90-b696-dfbde5b0bde6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=182fe2cd-cc04-4e90-b696-dfbde5b0bde6;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=3260F203D682224198EC5DFD2508F0B0; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-12T14:31:35.783Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-12T14:31:35.788Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-12T14:31:39.939Z] : 
+[debug] [2023-02-12T14:31:39.941Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:31:39.941Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-12T14:31:39.941Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T14:31:39.942Z] : Platform:     win32
+[debug] [2023-02-12T14:31:39.942Z] : Node Version: v18.12.1
+[debug] [2023-02-12T14:31:39.943Z] : Time:         Sun Feb 12 2023 22:31:39 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-12T14:31:39.943Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:31:39.943Z] : 
+[debug] [2023-02-12T14:31:40.587Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T14:31:40.588Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T14:31:40.599Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181 
+
+[debug] [2023-02-12T14:31:41.237Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=a4fe507b-9f27-45e8-a619-a5201952c76e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a4fe507b-9f27-45e8-a619-a5201952c76e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:31:41.248Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/environment 
+
+[debug] [2023-02-12T14:31:41.800Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=54c4dd09-b553-400f-841e-6e42285346a4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=54c4dd09-b553-400f-841e-6e42285346a4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:31:41.846Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T14:31:42.429Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=daad42b4-5fad-4253-a081-b2c291795744;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=daad42b4-5fad-4253-a081-b2c291795744;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:31:42.437Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-12T14:31:42.641Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/server/upsert 
+
+[debug] [2023-02-12T14:31:45.306Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=7c4a840f-3f18-414e-9b9b-d2711e2083cf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7c4a840f-3f18-414e-9b9b-d2711e2083cf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-12T14:31:45.450Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-12T14:31:45.450Z] : i Building Application...
+[info] [2023-02-12T14:31:47.202Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-12T14:31:53.285Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:31:53.286Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T14:31:53.286Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:31:53.287Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:31:53.287Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-12T14:31:53.299Z] : [react-plugin]:   47.08 kB  build\static\js\main.bb70a7e8.js
+[info] [2023-02-12T14:31:53.299Z] : [react-plugin]:   1.67 kB   build\static\js\787.d8c47fce.chunk.js
+[info] [2023-02-12T14:31:53.299Z] : [react-plugin]:   564 B     build\static\css\main.79e124a3.css
+[info] [2023-02-12T14:31:53.300Z] : [react-plugin]:  
+[debug] [2023-02-12T14:31:53.549Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/webapp 
+
+[debug] [2023-02-12T14:31:55.231Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=e742aec3-96d6-45b9-b8d9-b83fe175c86d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e742aec3-96d6-45b9-b8d9-b83fe175c86d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-12T14:31:55.232Z] : 
+[info] [2023-02-12T14:31:55.232Z] : i functions(book_best_seller_function): URL => https://bookbestseller-771945458.development.catalystserverless.com/server/book_best_seller_function/
+[info] [2023-02-12T14:31:55.233Z] : √ functions(book_best_seller_function): deploy successful
+[info] [2023-02-12T14:31:55.233Z] : 
+[info] [2023-02-12T14:31:55.233Z] : √ client: deploy successful
+[info] [2023-02-12T14:31:55.234Z] : i client: URL => https://bookbestseller-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-12T14:31:55.234Z] : 
+[info] [2023-02-12T14:31:55.234Z] : √ Catalyst deploy complete!
+[debug] [2023-02-12T14:31:55.235Z] : NO ERRORS REGISTERED
+[debug] [2023-02-12T14:31:55.235Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-12T14:31:55.235Z] : TOTAL DURATION OF COMMAND EXEC : 14660
+[debug] [2023-02-12T14:31:55.244Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-12T14:31:56.466Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:31:57 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=a354a348-3cd3-4ce0-b10b-e13c90c9cacb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a354a348-3cd3-4ce0-b10b-e13c90c9cacb;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=D26EBE0215350E9408453A70AC28C3ED; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-12T14:31:56.467Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-12T14:31:56.468Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-12T14:33:13.931Z] : 
+[debug] [2023-02-12T14:33:13.932Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:33:13.933Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-12T14:33:13.933Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T14:33:13.934Z] : Platform:     win32
+[debug] [2023-02-12T14:33:13.934Z] : Node Version: v18.12.1
+[debug] [2023-02-12T14:33:13.935Z] : Time:         Sun Feb 12 2023 22:33:13 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-12T14:33:13.935Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T14:33:13.935Z] : 
+[debug] [2023-02-12T14:33:14.556Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T14:33:14.557Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T14:33:14.567Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181 
+
+[debug] [2023-02-12T14:33:15.192Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:33:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=64cc921e-7a29-43f9-ae1b-c1aaa59eda54;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=64cc921e-7a29-43f9-ae1b-c1aaa59eda54;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:33:15.204Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/environment 
+
+[debug] [2023-02-12T14:33:15.765Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:33:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=87b5f067-9102-44aa-bfea-4f99353ae2dc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=87b5f067-9102-44aa-bfea-4f99353ae2dc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:33:15.953Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T14:33:16.506Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 14:33:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=5a4de249-52b5-4139-8c8c-9a5f32b4a45a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5a4de249-52b5-4139-8c8c-9a5f32b4a45a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T14:33:16.509Z] : unknown eol undefined hence skipping check
+[info] [2023-02-12T14:33:16.569Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:33:16.570Z] : 
+[info] [2023-02-12T14:33:18.973Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-12T14:33:18.975Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-12T14:33:20.543Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:33:20.543Z] : [react-plugin]: 
+[info] [2023-02-12T14:33:20.544Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:33:20.544Z] : [react-plugin]: 
+[info] [2023-02-12T14:33:20.544Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:33:20.545Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:33:20.545Z] : [react-plugin]: 
+[info] [2023-02-12T14:33:20.545Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:33:20.545Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:33:20.545Z] : [react-plugin]: 
+[info] [2023-02-12T14:35:20.660Z] : 
+change of package-lock.json in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:35:20.683Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:35:20.683Z] : 
+[info] [2023-02-12T14:35:20.794Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:35:21.797Z] : 
+change of package.json in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:35:21.814Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:35:21.814Z] : 
+[info] [2023-02-12T14:35:21.924Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:35:55.276Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:35:55.316Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:35:55.316Z] : 
+[info] [2023-02-12T14:35:55.431Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:36:24.043Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:36:24.059Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:36:24.059Z] : 
+[info] [2023-02-12T14:36:24.174Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:37:13.447Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:37:13.467Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:37:13.467Z] : 
+[info] [2023-02-12T14:37:13.575Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:37:52.459Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:37:52.477Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:37:52.477Z] : 
+[info] [2023-02-12T14:37:52.579Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:39:06.546Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:39:06.837Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-12T14:39:06.839Z] : [react-plugin]: 
+[info] [2023-02-12T14:39:06.839Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-12T14:39:06.840Z] : [react-plugin]: 
+[info] [2023-02-12T14:39:06.841Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-12T14:39:06.841Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-12T14:39:06.841Z] : [react-plugin]: 
+[info] [2023-02-12T14:39:06.842Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-12T14:39:06.842Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-12T14:39:06.843Z] : [react-plugin]: 
+[info] [2023-02-12T14:40:11.750Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:40:13.729Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:40:13.730Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:   'logo' is defined but never used         no-unused-vars
+  Line 5:8:   'axios' is defined but never used        no-unused-vars
+  Line 6:10:  'forwardRef' is defined but never used   no-unused-vars
+  Line 6:22:  'useCallback' is defined but never used  no-unused-vars
+  Line 6:35:  'useEffect' is defined but never used    no-unused-vars
+  Line 6:46:  'useRef' is defined but never used       no-unused-vars
+  Line 6:54:  'useState' is defined but never used     no-unused-vars
+[info] [2023-02-12T14:40:13.730Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:40:13.730Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:41:39.750Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:41:40.014Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:41:40.014Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:   'logo' is defined but never used         no-unused-vars
+  Line 5:8:   'axios' is defined but never used        no-unused-vars
+  Line 6:10:  'forwardRef' is defined but never used   no-unused-vars
+  Line 6:22:  'useCallback' is defined but never used  no-unused-vars
+  Line 6:35:  'useEffect' is defined but never used    no-unused-vars
+  Line 6:46:  'useRef' is defined but never used       no-unused-vars
+  Line 6:54:  'useState' is defined but never used     no-unused-vars
+[info] [2023-02-12T14:41:40.015Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:41:40.015Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:42:26.740Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:42:26.937Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:42:26.937Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 22:24:  'fetchState' is not defined  no-undef
+  Line 22:36:  'page' is not defined        no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:42:42.168Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:42:42.367Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:42:42.367Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 23:36:  'page' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:42:50.466Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:42:50.687Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:42:50.687Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 5:8:    'axios' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 21:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 23:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T14:42:50.687Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:42:50.688Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:45:12.096Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:45:12.479Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:45:12.480Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 37:13:  'setTodoItems' is not defined  no-undef
+  Line 47:11:  'setHasMore' is not defined    no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:45:22.936Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:45:23.127Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T14:45:23.127Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 47:11:  'setHasMore' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T14:45:30.075Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:45:30.297Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:45:30.298Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:45:30.298Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:45:30.298Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:47:12.788Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:47:13.057Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:47:13.058Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:47:13.058Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:47:13.058Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:48:00.489Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:48:00.515Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:48:00.515Z] : 
+[info] [2023-02-12T14:48:00.628Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:48:21.426Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:48:21.446Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:48:21.446Z] : 
+[info] [2023-02-12T14:48:21.554Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:49:47.147Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:49:47.166Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:49:47.166Z] : 
+[info] [2023-02-12T14:49:47.279Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:50:09.576Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:50:09.597Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:50:09.597Z] : 
+[info] [2023-02-12T14:50:09.700Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:51:00.476Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:51:00.700Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:51:00.701Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 5:8:    'axios' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used               no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:21:  'setBookItems' is assigned a value but never used   no-unused-vars
+  Line 22:10:  'page' is assigned a value but never used           no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 23:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 24:10:  'fetchState' is assigned a value but never used     no-unused-vars
+  Line 24:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T14:51:00.701Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:51:00.701Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:52:07.769Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:52:07.999Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:52:07.999Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:21:  'setBookItems' is assigned a value but never used   no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 23:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 24:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+  Line 35:21:  'bookItems' is assigned a value but never used      no-unused-vars
+  Line 35:32:  'hasMore' is assigned a value but never used        no-unused-vars
+[info] [2023-02-12T14:52:08.000Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:52:08.000Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:52:48.883Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T14:52:48.919Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T14:52:48.920Z] : 
+[info] [2023-02-12T14:52:49.019Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T14:53:40.501Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:53:40.758Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:53:40.758Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:53:40.759Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:53:40.759Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:54:34.733Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:54:34.926Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:54:34.927Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                              no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                        no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                       no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                 no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                  no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used                                                                  no-unused-vars
+  Line 56:6:   React Hook useEffect has a missing dependency: 'bookItems'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T14:54:34.927Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:54:34.927Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:54:40.717Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:54:40.914Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:54:40.915Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                              no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                        no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                       no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                 no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                  no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used                                                                  no-unused-vars
+  Line 56:6:   React Hook useEffect has a missing dependency: 'bookItems'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T14:54:40.915Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:54:40.915Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:55:13.784Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:55:14.010Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:55:14.010Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:55:14.011Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:55:14.011Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:55:48.966Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:55:49.160Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:55:49.161Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:55:49.162Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:55:49.162Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:56:22.861Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:56:23.069Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:56:23.069Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                        no-unused-vars
+  Line 23:10:  'hasMore' is assigned a value but never used                                                                                                                                                                                        no-unused-vars
+  Line 34:21:  'BookList' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 55:6:   React Hook useEffect has a missing dependency: 'bookItems'. Either include it or remove the dependency array. You can also do a functional update 'setBookItems(b => ...)' if you only need 'bookItems' in the 'setBookItems' call  react-hooks/exhaustive-deps
+[info] [2023-02-12T14:56:23.070Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:56:23.070Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:56:58.440Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:56:58.671Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:56:58.672Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                        no-unused-vars
+  Line 34:21:  'BookList' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 55:6:   React Hook useEffect has a missing dependency: 'bookItems'. Either include it or remove the dependency array. You can also do a functional update 'setBookItems(b => ...)' if you only need 'bookItems' in the 'setBookItems' call  react-hooks/exhaustive-deps
+[info] [2023-02-12T14:56:58.672Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:56:58.672Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:57:19.166Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:57:19.369Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:57:19.369Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                        no-unused-vars
+  Line 34:21:  'BookList' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 55:6:   React Hook useEffect has a missing dependency: 'bookItems'. Either include it or remove the dependency array. You can also do a functional update 'setBookItems(b => ...)' if you only need 'bookItems' in the 'setBookItems' call  react-hooks/exhaustive-deps
+[info] [2023-02-12T14:57:19.369Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:57:19.370Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:57:53.240Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:57:53.410Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:57:53.411Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T14:57:53.411Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:57:53.411Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:59:07.166Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:59:07.398Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:59:07.398Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                                                                            no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                                                                                     no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                                                                               no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+  Line 33:11:  'bookItems' is constant                                                                                                                                                                                                                                                                     no-const-assign
+  Line 33:23:  Assignments to the 'bookItems' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 34:11:  'hasMore' is constant                                                                                                                                                                                                                                                                       no-const-assign
+  Line 34:21:  Assignments to the 'hasMore' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect    react-hooks/exhaustive-deps
+[info] [2023-02-12T14:59:07.399Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:59:07.399Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T14:59:56.425Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T14:59:56.618Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T14:59:56.619Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                                                                            no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                                                                                     no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                                                                               no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+  Line 33:11:  'bookItems' is constant                                                                                                                                                                                                                                                                     no-const-assign
+  Line 33:23:  Assignments to the 'bookItems' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 34:11:  'hasMore' is constant                                                                                                                                                                                                                                                                       no-const-assign
+  Line 34:21:  Assignments to the 'hasMore' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect    react-hooks/exhaustive-deps
+[info] [2023-02-12T14:59:56.620Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T14:59:56.620Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:00:15.077Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:00:15.249Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:00:15.250Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                                                                                                                                                                                                            no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                                                                                                                                                                                                     no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                                                                                                                                                                                               no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+  Line 33:23:  Assignments to the 'bookItems' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 34:11:  'hasMore' is constant                                                                                                                                                                                                                                                                       no-const-assign
+  Line 34:21:  Assignments to the 'hasMore' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect    react-hooks/exhaustive-deps
+[info] [2023-02-12T15:00:15.250Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:00:15.250Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:01:33.995Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:01:34.214Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:01:34.214Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 57:19:  'bookItems' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:02:17.378Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:02:17.543Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:02:17.544Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                 no-unused-vars
+  Line 5:8:    'axios' is defined but never used                no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used           no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used          no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used            no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used    no-unused-vars
+  Line 21:10:  'page' is assigned a value but never used        no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used     no-unused-vars
+  Line 22:10:  'title' is assigned a value but never used       no-unused-vars
+  Line 22:17:  'setTitle' is assigned a value but never used    no-unused-vars
+  Line 23:10:  'bookItems' is assigned a value but never used   no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used     no-unused-vars
+  Line 24:19:  'setHasMore' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:02:17.544Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:02:17.544Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:03:00.624Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:03:00.801Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:03:00.801Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                   no-unused-vars
+  Line 5:8:    'axios' is defined but never used                  no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used              no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used      no-unused-vars
+  Line 22:10:  'page' is assigned a value but never used          no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used         no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used     no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 25:19:  'setHasMore' is assigned a value but never used    no-unused-vars
+[info] [2023-02-12T15:03:00.801Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:03:00.802Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:03:32.360Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:03:32.550Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:03:32.550Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 5:8:    'axios' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used               no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 22:10:  'page' is assigned a value but never used           no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used          no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used       no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used      no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used   no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 26:10:  'fetchState' is assigned a value but never used     no-unused-vars
+  Line 26:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:03:32.551Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:03:32.551Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:03:42.885Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:03:43.069Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:03:43.069Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 5:8:    'axios' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used          no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used       no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used      no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used   no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 26:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:03:43.070Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:03:43.070Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:06:19.728Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:06:19.933Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:06:19.933Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used          no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used         no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used   no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used    no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used      no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used   no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used    no-unused-vars
+[info] [2023-02-12T15:06:19.934Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:06:19.934Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:07:09.711Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:07:09.931Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:07:09.931Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used     no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T15:07:09.931Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:07:09.931Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:07:24.789Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:07:24.968Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:07:24.968Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used               no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used         no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used        no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used  no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used   no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used     no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used   no-unused-vars
+[info] [2023-02-12T15:07:24.969Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:07:24.969Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:08:51.736Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:08:52.017Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:08:52.018Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:08:52.018Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:08:52.019Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:05.010Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:05.178Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:05.179Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:05.179Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:05.179Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:22.284Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:22.478Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:22.479Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:22.479Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:22.480Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:40.273Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:40.468Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:40.468Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:40.468Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:40.469Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:40.483Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:40.602Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:40.602Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:40.602Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:40.603Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:40.665Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:40.744Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:40.745Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:40.745Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:40.745Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:09:41.721Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:09:41.802Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:09:41.803Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 48:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:09:41.803Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:09:41.803Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:10:17.800Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:10:17.991Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:10:17.991Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:10:17.991Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:10:17.991Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:10:18.017Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:10:18.143Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:10:18.144Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:10:18.144Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:10:18.145Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:10:39.645Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:10:39.839Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:10:39.839Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:10:39.839Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:10:39.840Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:11:14.965Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:11:15.142Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:11:15.143Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 37:21:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 52:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:11:15.143Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:11:15.144Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:13:00.282Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:13:00.504Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:13:00.505Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 50:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:13:00.505Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:13:00.506Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:13:31.462Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:13:31.622Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:13:31.623Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:13:31.623Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:13:31.624Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:14:27.268Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:14:27.447Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:14:27.448Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:14:27.448Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:14:27.448Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:15:01.142Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:15:01.343Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:15:01.343Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 50:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:15:01.343Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:15:01.344Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:15:12.586Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:15:12.745Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:15:12.746Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 50:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:15:12.746Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:15:12.746Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-12T15:15:12.768Z] : > refreshing access token <
+[debug] [2023-02-12T15:15:12.771Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-12T15:15:13.363Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 15:15:14 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=57c7a14afabcac9a0b9dfc64b3542b70; Path=/","iamcsr=dafff349-0656-438c-8d98-5ef8f13b0b96;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dafff349-0656-438c-8d98-5ef8f13b0b96;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-12T15:15:37.948Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:15:38.116Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:15:38.117Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                                                                             no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used                                                                       no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used                                                                      no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used                                                                no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used                                                                 no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used                                                                   no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used                                                                no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used                                                            no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used                                                                 no-unused-vars
+  Line 36:19:  'bookItems' is assigned a value but never used                                                               no-unused-vars
+  Line 50:6:   React Hook useEffect has a missing dependency: 'bookList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-12T15:15:38.117Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:15:38.117Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:16:28.461Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:16:28.655Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:16:28.656Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used              no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used      no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used         no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used     no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 26:10:  'fetchState' is assigned a value but never used    no-unused-vars
+  Line 35:17:  'bookItems' is assigned a value but never used     no-unused-vars
+[info] [2023-02-12T15:16:28.656Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:16:28.656Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:16:55.818Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:16:56.012Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:16:56.012Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used              no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used      no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used         no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used     no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 26:10:  'fetchState' is assigned a value but never used    no-unused-vars
+  Line 35:17:  'bookItems' is assigned a value but never used     no-unused-vars
+[info] [2023-02-12T15:16:56.013Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:16:56.013Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:17:19.088Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:17:19.262Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:17:19.262Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                   no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 6:35:   'useEffect' is defined but never used              no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used      no-unused-vars
+  Line 22:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'title' is assigned a value but never used         no-unused-vars
+  Line 23:17:  'setTitle' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'bookItems' is assigned a value but never used     no-unused-vars
+  Line 24:21:  'setBookItems' is assigned a value but never used  no-unused-vars
+  Line 25:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 26:10:  'fetchState' is assigned a value but never used    no-unused-vars
+[info] [2023-02-12T15:17:19.262Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:17:19.263Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:18:17.831Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:18:18.005Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:18:18.005Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 41:13:  'setTodoItems' is not defined  no-undef
+  Line 43:13:  'setTodoItems' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:18:28.832Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:18:29.042Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:18:29.042Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 59:19:  'bookList' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:18:36.534Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:18:36.693Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:18:36.693Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 22:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 22:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'todoItems' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:18:36.693Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:18:36.694Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:18:56.657Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:18:56.800Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:18:56.800Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 22:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 22:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'todoItems' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:18:56.800Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:18:56.801Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:19:22.404Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:19:22.559Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:19:22.560Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 22:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 22:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:19:22.560Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:19:22.560Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:19:50.043Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:19:50.252Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:19:50.252Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 22:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 22:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 23:10:  'todoItems' is assigned a value but never used      no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:19:50.252Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:19:50.252Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:20:11.181Z] : 
+change of index.js in book_best_seller_function detected. Preparing your function, please wait...
+[info] [2023-02-12T15:20:11.203Z] : i server[book_best_seller_function]: URL : http://localhost:3000/server/book_best_seller_function/
+[info] [2023-02-12T15:20:11.204Z] : 
+[info] [2023-02-12T15:20:11.316Z] : i server[book_best_seller_function]: ready!
+[info] [2023-02-12T15:20:23.890Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:20:24.071Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:20:24.071Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 6:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 20:9:   'observer' is assigned a value but never used       no-unused-vars
+  Line 21:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 22:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 22:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 24:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 25:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:20:24.072Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:20:24.072Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:22:20.610Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:22:20.818Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:22:20.818Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 64:12:  'Task' is not defined         react/jsx-no-undef
+  Line 67:51:  'lastElement' is not defined  no-undef
+  Line 69:25:  'removeTask' is not defined   no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:23:19.243Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:23:19.437Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:23:19.437Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 24:17:  'img' is not defined          no-undef
+  Line 24:27:  'title' is not defined        no-undef
+  Line 25:12:  'title' is not defined        no-undef
+  Line 27:12:  'author' is not defined       no-undef
+  Line 80:51:  'lastElement' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:23:53.668Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:23:53.863Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:23:53.863Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 24:29:  'title' is not defined        no-undef
+  Line 80:51:  'lastElement' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:24:10.960Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:24:11.172Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:24:11.172Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 80:51:  'lastElement' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:24:27.431Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:24:27.628Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:24:27.629Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:    'logo' is defined but never used                    no-unused-vars
+  Line 6:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 7:10:   'BookList' is defined but never used                no-unused-vars
+  Line 35:10:  'notes' is assigned a value but never used          no-unused-vars
+  Line 35:17:  'setNotes' is assigned a value but never used       no-unused-vars
+  Line 38:10:  'submitting' is assigned a value but never used     no-unused-vars
+  Line 38:22:  'setSubmitting' is assigned a value but never used  no-unused-vars
+[info] [2023-02-12T15:24:27.629Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:24:27.629Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:25:55.660Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:25:55.830Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:25:55.830Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:   'logo' is defined but never used         no-unused-vars
+  Line 5:8:   'axios' is defined but never used        no-unused-vars
+  Line 6:10:  'forwardRef' is defined but never used   no-unused-vars
+  Line 6:22:  'useCallback' is defined but never used  no-unused-vars
+  Line 6:35:  'useEffect' is defined but never used    no-unused-vars
+  Line 6:46:  'useRef' is defined but never used       no-unused-vars
+  Line 6:54:  'useState' is defined but never used     no-unused-vars
+[info] [2023-02-12T15:25:55.830Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:25:55.831Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:26:03.220Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:26:03.329Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:26:03.329Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T15:26:03.330Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:26:03.330Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:27:22.738Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:27:23.004Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:27:23.005Z] : [react-plugin]: [eslint] 
+src\Book.js
+  Line 6:17:  'img' is not defined     no-undef
+  Line 6:27:  'title' is not defined   no-undef
+  Line 7:12:  'title' is not defined   no-undef
+  Line 9:12:  'author' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:27:57.487Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:27:57.575Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:27:57.575Z] : [react-plugin]: [eslint] 
+src\Book.js
+  Line 6:17:  'img' is not defined     no-undef
+  Line 6:27:  'title' is not defined   no-undef
+  Line 7:12:  'title' is not defined   no-undef
+  Line 9:12:  'author' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[debug] [2023-02-12T15:28:20.331Z] : 
+[debug] [2023-02-12T15:28:20.332Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T15:28:20.332Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-12T15:28:20.332Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T15:28:20.333Z] : Platform:     win32
+[debug] [2023-02-12T15:28:20.333Z] : Node Version: v18.12.1
+[debug] [2023-02-12T15:28:20.334Z] : Time:         Sun Feb 12 2023 23:28:20 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-12T15:28:20.334Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T15:28:20.334Z] : 
+[debug] [2023-02-12T15:28:20.980Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T15:28:20.981Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T15:28:20.992Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181 
+
+[debug] [2023-02-12T15:28:21.676Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 15:28:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=58c55986-40e3-4d3f-b7fc-5aa1c7966e57;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=58c55986-40e3-4d3f-b7fc-5aa1c7966e57;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T15:28:21.687Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/environment 
+
+[debug] [2023-02-12T15:28:22.236Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 15:28:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=b147152c-270b-42c8-954b-94789b005c9b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b147152c-270b-42c8-954b-94789b005c9b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T15:28:22.393Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-12T15:28:22.400Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000082181/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T15:28:22.502Z] : http port : '3030' is not available. Hence port '3031' will be used instead.
+[debug] [2023-02-12T15:28:22.960Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 15:28:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=d15cee8d-c4a6-42ea-a69c-2a52f9c1d075;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d15cee8d-c4a6-42ea-a69c-2a52f9c1d075;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T15:28:22.962Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-12T15:28:22.973Z] : http port : '3010' is not available. Hence port '3011' will be used instead.
+[info] [2023-02-12T15:28:23.010Z] : i server[book_best_seller_function]: URL : http://localhost:3001/server/book_best_seller_function/
+[info] [2023-02-12T15:28:23.010Z] : 
+[info] [2023-02-12T15:28:25.366Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-12T15:28:25.368Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-12T15:28:30.311Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-12T15:28:30.312Z] : [react-plugin]: [eslint] 
+src\Book.js
+  Line 6:17:  'img' is not defined     no-undef
+  Line 6:27:  'title' is not defined   no-undef
+  Line 7:12:  'title' is not defined   no-undef
+  Line 9:12:  'author' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-12T15:28:45.255Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:28:45.256Z] : [react-plugin]: Compiling...
+[info] [2023-02-12T15:28:45.385Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:28:45.386Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T15:28:45.386Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:28:45.386Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:28:45.603Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-12T15:28:45.603Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-12T15:28:45.603Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-12T15:28:45.603Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-12T15:30:21.384Z] : Shutting down server
+[info] [2023-02-12T15:30:21.393Z] : 
+[info] [2023-02-12T15:30:21.394Z] : √ Shutdown complete
+[debug] [2023-02-12T15:30:21.395Z] : NO ERRORS REGISTERED
+[debug] [2023-02-12T15:30:21.396Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-12T15:30:21.396Z] : TOTAL DURATION OF COMMAND EXEC : 3426851
+[debug] [2023-02-12T15:30:21.419Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+

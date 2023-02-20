@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "book_best_seller_function",
+		"stack": "node16",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}
